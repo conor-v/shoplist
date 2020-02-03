@@ -1,4 +1,4 @@
-<section>
+<header>
   <h2>Grocery list</h2>
   <form action="index.php" method="post">
     <input type="hidden" name="search">
@@ -6,7 +6,9 @@
     <input type="search" name="search" id="search">
     <input type="submit" value="search">
   </form>
+</header>
 
+<section>
   <?php foreach ($items as $item): ?>
   <?php endforeach; ?>
 </section>
