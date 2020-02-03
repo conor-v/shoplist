@@ -1,0 +1,6 @@
+@import './css/reset.css';
+@import './css/vars.css';
+
+body {
+  background-color: var(--anotherColor);
+}
