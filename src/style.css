@@ -1,6 +1,40 @@
+/*fonts*/
+@import url(https://use.typekit.net/lmp2mhq.css);
+
+/* General styles */
 @import './css/reset.css';
 @import './css/vars.css';
+@import './css/header.css';
+@import './css/home.css';
+
+/* stylelint-disable */
+* {
+  box-sizing: border-box;
+
+  &::before {
+    box-sizing: border-box;
+  }
+
+  &::after {
+    box-sizing: border-box;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+/* stylelint-enable */
+
+html {
+  box-sizing: inherit;
+  font-size: 62.5%;
+}
 
 body {
-  background-color: var(--anotherColor);
+  font-family: var(--text);
+  font-size: 1.2rem;
+}
+
+.hidden {
+  display: none;
 }

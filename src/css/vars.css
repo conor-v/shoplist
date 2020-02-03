@@ -1,6 +1,11 @@
 :root {
-  --backgroundColor: #eaeae9;
-  --textColor: #463636;
-  --anotherColor: #bada55;
-  --margin: 2rem;
+  --titleColor: #5745f1;
+  --textItem: #4b4753;
+  --textCat: #abb4c1;
+  --text: montserrat, sans-serif;
+  --titleSize: 3rem;
+  --formTitle: 2.5rem;
+  --textItemSize: 2rem;
+  --textDetail: 1.5rem;
+  --textCatSize: 1.3rem;
 }
