@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $title; ?></title>
     <?php echo $css;?>
-    <script src="https://kit.fontawesome.com/e9be875584.js" crossorigin="anonymous"></script>
   </head>
   <body>
       <?php
